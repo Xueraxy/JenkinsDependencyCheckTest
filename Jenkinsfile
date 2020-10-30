@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Checkout SCM') {
 			steps {
-				git '/Xueraxy/JenkinsDependencyCheckTest'
+				git '/home/JenkinsDependencyCheckTest'
 			}
 		}
 
